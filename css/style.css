@@ -1,0 +1,79 @@
+html {
+    height: 100%;
+}
+
+body {
+  height: 100%;
+  text-align: center;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  height: 100%;
+}
+
+h1 {
+  font-size: 4em;
+}
+
+#location {
+  font-size: 2em;
+}
+
+#tempdiv {
+ font-size: 3em;  
+}
+
+#mean_weather {
+  font-size: 4em;
+}
+#icon {
+  font-size: 5em;
+}
+
+.rainy-background {
+  background: gray;
+  background: -webkit-linear-gradient(left top, gray, black);
+  background: -o-linear-gradient(bottom right, gray, black);
+  background: -moz-linear-gradient(bottom right, gray, black);
+  background: linear-gradient(to bottom right, gray, black);
+}
+
+.sunny-background {
+  background: white;
+  background: -webkit-linear-gradient(left top, white, yellow);
+  background: -o-linear-gradient(bottom right, white, yellow);
+  background: -moz-linear-gradient(bottom right, white, yellow);
+  background: linear-gradient(to bottom right, white, yellow);
+}
+
+.thunderstorm-background {
+  background: #191670;
+  background: -webkit-linear-gradient(left top, #6666ff, black);
+  background: -o-linear-gradient(bottom right, #6666ff, black);
+  background: -moz-linear-gradient(bottom right, #6666ff, black);
+  background: linear-gradient(to bottom right, #6666ff, black);
+}
+
+.snowy-background {
+  background: white;
+  background: -webkit-linear-gradient(left top, white, #6666ff);
+  background: -o-linear-gradient(bottom right, white, #6666ff);
+  background: -moz-linear-gradient(bottom right, white, #6666ff);
+  background: linear-gradient(to bottom right, white, #6666ff);
+}
+
+.foggy-background {
+  background: white;
+  background: -webkit-linear-gradient(left top, white, gray);
+  background: -o-linear-gradient(bottom right, white, gray);
+  background: -moz-linear-gradient(bottom right, white, gray);
+  background: linear-gradient(to bottom right, white, gray);
+}
+
+.hell-background {
+  background: red;
+  background: -webkit-linear-gradient(left top, red, black);
+  background: -o-linear-gradient(bottom right, red, gblackray);
+  background: -moz-linear-gradient(bottom right, red, black);
+  background: linear-gradient(to bottom right, red, black);
+}
